@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    }
+
+
+nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: #000;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+}
+
+nav .logo{
+    color: white;
+    font-size: 35px;
+    font-weight: 600px;
+    text-decoration: none;
+
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+
+}
+
+nav ul li{
+    margin: 0 5px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 18px;
+    font-weight: 40px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+nav ul li a.active,
+nav ul li a:hover{
+    background: #364959;
+}
+
+nav .menu-btn i{
+    color: #fff;
+    cursor: pointer;
+    display: none;
+
+
+}
+    
+
+
+.container{
+    display: inline-block ;
+    justify-content: space-evenly ;
+    
+
+}
+
+.card{
+display: center;
+width: 300px;
+margin: 10px;
+height:300px ;
+border-radius:15px ;
+background-color: #fff ;
+
+
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+
+.niteroi{
+width:100px ;
+height:100px ;
+border-radius:50% ;
+margin-top: 10px;
+}
+
+.madureira{
+width:100px ;
+height:100px ;
+border-radius:50% ;
+margin-top: 10px;
+}
+
+.maracana{
+    width:100px ;
+    height:100px ;
+    border-radius:50% ;
+    margin-top: 10px;
+}
+
+.saocristovao{
+    width:100px ;
+    height:100px ;
+    border-radius:50% ;
+    margin-top: 10px;
+}
+
+.penha{
+    width:100px ;
+    height:100px ;
+    border-radius:50% ;
+    margin-top: 10px;
+}
+
+.central{
+    width:100px ;
+    height:100px ;
+    border-radius:50% ;
+    margin-top: 10px;
+}
+
+.rede1{
+    padding-left: 20%;
+}
+
+.rede2{
+    padding-left: 20%;
+}
+    
+.cores1{
+    background: #fff;
+}
+
+.cores2{
+    background: #fff;
+}
+
+.cores3{
+    background: #fff;
+}
+
+
+
+.secao{
+padding: 20px;
+
+}
+
+.planos{
+box-shadow: 0 4px 62px rgba(0, 0, 0, 0.6);
+width: 264px;
+height: 337px;
+display: flexbox;
+align-items: center;
+justify-content: center;
+}
+
+.footer{
+    color: black;
+}
+
+
+.main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .container2{
+    display: flex;
+    flex-direction: column;
+    background: #364959;;
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+  }
+  
+  .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font: bold 2.5rem serif;
+    border-bottom: solid 5px black;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .input input {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border:none;
+    outline: 0;
+    font: bold 1.5rem serif;
+    text-align: center;
+  }
+  
+  .input label {
+    font: bold 1.5rem serif;
+  }
+  
+  .button2{
+    width: 300px;
+    height: 40px;
+    font: bold 1.2rem serif;
+    background: #000;
+    color: rgb(255,198,0);
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .result{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    font: italic 1.5rem serif;
+    box-shadow: 0px 0px 10px black;
+    background: #000;
+    color: rgb(255,198,0);
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+  }
+
+  .laura{
+    width:100px ;
+    height:100px ;
+    border-radius:50% ;
+    margin-top: 10px;
+  }
+
+  .ana{
+    width:100px ;
+    height:100px ;
+    border-radius:50% ;
+    margin-top: 10px;
+  }
+
+  .renato{
+    width:100px ;
+    height:100px ;
+    border-radius:50% ;
+    margin-top: 10px;
+  }
+
+  .lucas{
+    width:100px ;
+    height:100px ;
+    border-radius:50% ;
+    margin-top: 10px;
+  }
+
+  .maria{
+    width:100px ;
+    height:100px ;
+    border-radius:50% ;
+    margin-top: 10px;
+  }
+
+  
